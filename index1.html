@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <title>공정배 포트폴리오</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Raleway", sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    .column {
+      float: left;
+      padding: 10px;
+    }
+
+    .left {
+      width: 20%;
+    }
+
+    .right {
+      width: 75%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+
+  <body class="w3-light-grey w3-content" style="max-width:1600px">
+    <!-- Sidebar/menu -->
+    <nav
+      class="w3-sidebar w3-collapse w3-white w3-animate-left"
+      style="z-index:3;width:300px;"
+      id="mySidebar"
+    >
+      <br />
+      <div class="w3-container">
+        <a
+          href="#"
+          onclick="w3_close()"
+          class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+          title="close menu"
+        >
+          <i class="fa fa-remove"></i>
+        </a>
+        <img
+          src="/images/profile.jpg"
+          style="width:45%;"
+          class="w3-round"
+        /><br /><br />
+        <h4><b>공정배</b></h4>
+        <h4><b>PORTFOLIO</b></h4>
+      </div>
+      <div class="w3-bar-block">
+        <a
+          href="#portfolio"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding w3-text-teal"
+          ><i class="fa fa-th-large fa-fw w3-margin-right"></i>Data Analysis</a
+        >
+        <a
+          href="#deeplearning"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-th-large fa-fw w3-margin-right"></i>Deep Learning</a
+        >
+
+        <a
+          href="#about"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-user fa-fw w3-margin-right"></i>About Me</a
+        >
+        <a
+          href="#contact"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a
+        >
+      </div>
+      <div class="w3-panel w3-large">
+        <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
+        <a href="https://www.github.com/kongjeongbae"
+          ><i class="fa fa-github w3-hover-opacity fa-2x"></i
+        ></a>
+        <a href="https://www.instagram.com/kongjeongbae/"
+          ><i class="fa fa-instagram w3-hover-opacity fa-2x"></i
+        ></a>
+        <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
+        <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
+        <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+      </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()"
+      style="cursor:pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+      <!-- Header -->
+      <header id="portfolio">
+        <a href="#"
+          ><img
+            src="/images/profile.jpg"
+            style="width:65px;"
+            class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
+        /></a>
+
+        <span
+          class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
+          onclick="w3_open()"
+          ><i class="fa fa-bars"></i
+        ></span>
+        <div class="w3-container">
+          <h1><b>My Portfolio</b></h1>
+        </div>
+      </header>
+
+      <div class="w3-container" style="margin-bottom:32px; margin-top:16px;">
+        <h2>Data Analysis</h2>
+        <!-- 데이터 분석 First Grid-->
+        <div class="w3-row">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <a href="/books/book1/README.html"
+              ><img
+                src="/images/analysis01.jpg"
+                alt="Norway"
+                style="width:100%"
+                class="w3-hover-opacity"
+            /></a>
+            <div class="w3-container w3-white">
+              <h3><b>분석 01. 시작</b></h3>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+            <a href="/pages/data02.html"
+              ><img
+                src="/images/analysis02.jpg"
+                alt="Norway"
+                style="width:100%"
+                class="w3-hover-opacity"
+            /></a>
+            <div class="w3-container w3-white">
+              <p><b>분석 02.</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+            <a href="/pages/data03.html"
+              ><img
+                src="/images/analysis03.jpg"
+                alt="Norway"
+                style="width:100%"
+                class="w3-hover-opacity"
+            /></a>
+            <div class="w3-container w3-white">
+              <p><b>분석 03.</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 데이터 분석 Second Grid-->
+        <div class="w3-row">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <a href="/pages/data04.html"
+              ><img
+                src="/images/analysis04.jpg"
+                alt="Norway"
+                style="width:100%"
+                class="w3-hover-opacity"
+            /></a>
+            <div class="w3-container w3-white">
+              <p><b>분석 04.</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 딥러닝 First Grid-->
+      <div
+        class="w3-container"
+        id="deeplearning"
+        style="margin-bottom:32px; margin-top:32px;"
+      >
+        <h2>Deep Learning</h2>
+        <div class="w3-row">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <a href="/pages/deep01.html"
+              ><img
+                src="/images/deep01.jpg"
+                alt="Norway"
+                style="width:100%"
+                class="w3-hover-opacity"
+            /></a>
+            <div class="w3-container w3-white">
+              <h3><b>분석 01. 시작</b></h3>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="/images/deep02.jpg"
+              alt="Norway"
+              style="width:100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>분석 02.</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-container">
+            <img
+              src="/images/deep03.jpg"
+              alt="Norway"
+              style="width:100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>분석 03.</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Images of Me -->
+      <!-- <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="/images/me1.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="/images/me2.jpg" alt="Me" style="width:100%">
+    </div>
+  </div> -->
+
+      <!-- RESUME -->
+
+      <div
+        class="w3-container w3-padding-large"
+        style="margin-bottom:32px; margin-top:32px;"
+        id="about"
+      >
+        <div class="w3-white">
+          <h2 style="padding-left: 5px;">
+            <b>About Me</b>
+          </h2>
+          <h3 style="padding-left: 8px;">학력</h3>
+          <div class="w3-row">
+            <div class="w3-col m4 w3-white w3-center">
+              <p>연세대학교</p>
+            </div>
+            <div class="w3-col m8 w3-white w3-center">
+              <p>도시공학과</p>
+            </div>
+          </div>
+          <h3 style="padding-left: 8px;">교육</h3>
+          <div class="w3-row">
+            <div class="w3-col m4 w3-white w3-center">
+              <p>SSAFY</p>
+            </div>
+            <div class="w3-col m8 w3-white w3-center">
+              <p>19.07 ~ 20. 06 삼성 청년 소프트웨어 아카데미</p>
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col m4 w3-white w3-center">
+              <p>딥러닝 기반의 빅데이터 분석 교육과정</p>
+            </div>
+            <div class="w3-col m8 w3-white w3-center">
+              <p>
+                18.09 ~ 19.02 멀티캠퍼스 딥러닝 기반의 빅데이터 분석 교육과정
+              </p>
+            </div>
+          </div>
+          <h3 style="padding-left: 8px;">수상내역</h3>
+          <div class="w3-row">
+            <div class="w3-col m4 w3-white w3-center">
+              <p>DB그룹 금융 논문 공모전 가작 수상</p>
+            </div>
+            <div class="w3-col m8 w3-white w3-center">
+              <p>
+                비재무 정보 및 딥러닝을 활용한 주가 예측을 주제로 가작을 수상
+              </p>
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col m4 w3-white w3-center">
+              <p>금융 논문 공모전</p>
+            </div>
+            <div class="w3-col m8 w3-white w3-center">
+              <p>
+                DB그룹 금융 논문 공모전 가작 수상 - 비재무 정보 및 딥러닝을
+                활용한 주가 예측
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div>
+        <iframe src="./a.pdf" style="width: 100%; height: 1100px;"></iframe>
+      </div> -->
+      <!-- Contact Section -->
+      <div class="w3-container w3-padding-large w3-grey">
+        <h4 id="contact"><b>Contact Me</b></h4>
+        <div
+          class="w3-row-padding w3-center w3-padding-24"
+          style="margin:0 -16px"
+        >
+          <div class="w3-half w3-dark-grey">
+            <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+            <p>kongjeongbae@gmail.com</p>
+          </div>
+          <div class="w3-half w3-teal">
+            <p>
+              <i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i>
+            </p>
+            <p>Seoul, Republic of Korea</p>
+          </div>
+          <!-- <div class="w3-quarter w3-dark-grey">
+            <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+            <p>512312311</p>
+          </div>
+          <div class="w3-quarter w3-dark-grey">
+            <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+            <p>512312311</p>
+          </div> -->
+        </div>
+        <hr class="w3-opacity" />
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-32 w3-dark-grey">
+        <div class="w3-row-padding">
+          <h3>데이터 엔지니어가 되고 싶은 사람</h3>
+          <p>
+            &nbsp;데이터 속에서 인사이트를 도출하고, 우리가 못보던 그 이상을 볼
+            수 있게 하는 탐험가가 되고 싶습니다. 머신러닝, 딥러닝 등을 공부하고
+            있으며, 데이터 분석과 관련해 Kaggle 및 DACON 등 에서 활발하게
+            활동하고 있습니다.
+          </p>
+        </div>
+      </footer>
+
+      <div class="w3-black w3-center w3-padding-24">
+        kongjeongbae with
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-opacity"
+          >w3.css</a
+        >
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
